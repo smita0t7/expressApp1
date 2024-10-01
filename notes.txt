@@ -1,0 +1,15 @@
+- touch .gitignore
+- add node_modules  into that file
+- create a repo, add main, commit
+- use the ssh link of the repo to add as a remote
+- if remote already exists then remove the remote using this command
+  - git remote remove origin
+- geneate SSH key
+  - ssh-keygen
+  - click enter for all the questions
+  - observe the path where key key was generated
+  - cat to the path to see the value of the public
+    - cat /home/sant/.ssh/id_rsa.pub
+  - paste thge public key value in GitHub SSH key tab in the setting.
+    - go to this location - github proifle -> setting -> SSH and GPG keys -> add new ssh key -> give a name, paste the public key and save
+  - now push
