@@ -13,3 +13,13 @@
   - paste thge public key value in GitHub SSH key tab in the setting.
     - go to this location - github proifle -> setting -> SSH and GPG keys -> add new ssh key -> give a name, paste the public key and save
   - now push
+  - if you find git push -u origin main
+To github.com:smita0t7/expressApp1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:smita0t7/expressApp1.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details..........error while pushing then 
+run git push -f or git push -u origin main -f that makes your push forcefully.
